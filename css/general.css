@@ -1,0 +1,126 @@
+*
+
+
+/*header*/
+
+#headerarriba{
+	background-color: #f0b429;
+	 padding: 3px 16px;
+}
+#headertitulo{
+	background-color: white;
+	 padding: 14px 16px;
+
+}
+header {
+	width: 100%;
+	height: 10%;
+
+
+}
+h1, h2{
+	text-align: center;
+	color: black;
+}
+figure{
+	float: left;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+h1{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/*barra de navegación*/
+
+
+ .barranav {
+  overflow: hidden;
+  background-color: #005883;
+  /*position: fixed;*/
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.barranav a {
+
+  display: block;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+.barranav a:hover {
+  background: lightblue;
+  color: black;
+}
+
+
+
+
+/*   body*/
+/*para centrar el p despues de nav y el ultimo del footer*/
+.text-center{
+	text-align: center;
+	font-text-centersize: 1.2em;
+}
+
+audio{
+	margin:  0 auto;
+
+	display: block;
+	
+}
+video{
+	margin:  0 auto;
+
+	display: block;
+	width: 700px;
+}
+
+.puntos{
+	/*para remover los puntos de las listas*/
+	list-style-type: none;
+}
+
+#izquierda{
+
+	padding-right: 15px;
+}
+
+#derecho{
+	display: inline;
+}
+
+
+/*footer*/
+
+.footer-main{
+	/* -webkit-column-count: 4; /* para dividir en 4 columnas en Chrome, Safari, Opera */
+    /*-moz-column-count: 4; /* Firefox */
+    background-color: #333333;
+	/* padding: 3em; */
+	padding: 33px 225px 33px 225px;
+	margin-bottom: .1em;
+	color: white;
+	font-size: 1.3em;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+.footer-main a{
+	color: white;
+}
+.footer-main a:hover{
+	text-decoration: underline;
+	}
+.footer-foot{
+	background-color: #b3b3b3;
+	 padding: 3px 16px;
+}
