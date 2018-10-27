@@ -1,1 +1,103 @@
-<h2>Pryeba</h2>
+<!doctype html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <link rel="stylesheet" href="css/style.css">
+   <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+   <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <title>OVI SGBD</title>
+</head>
+<body>
+
+  <div class="header-ov">
+
+  	<a href="https://www.unad.edu.co" class="img-cont" title="Página de inicio de la Universidad Nacional Abierta y a Distancia">
+      <img src="img/logoUNAD-HD.jpg" class="logo">
+    </a>
+    <div class="title-cont">
+      <marquee><h1 style="color:#004669;">ADMINISTRACIÓN DE BASE DE DATOS</h1></marquee>
+    </div>
+	</div>
+
+  <div id='mymenu'>
+
+    <ul>
+       <li><a onclick="load_pag('autores.html')"><span>Inicio</span></a></li>
+
+       <li><a onclick="load_pag('inicio.html')"><span>Implementacion Modelo Relacional Base de Datos</span></a></li>
+
+       <li><a onclick="load_pag('sgbd.html')"><span>SGBDs</span></a></li>
+
+       <li><a onclick="load_pag('ldd_lmd.html')"><span>Uso de LDD, LMD, LCD</span></a></li>
+
+       <li class='has-sub'><a><span>Actividades</span></a>
+         <ul>
+            <li><a onclick="load_pag('actividad1.html')"><span>Actividades 1</span></a></li>
+            <li><a onclick="load_pag('actividad2.html')"><span>Actividades 2</span></a></li>
+            <li><a onclick="load_pag('actividad3.html')"><span>Actividades 3</span></a></li>
+         </ul>
+       </li>
+
+
+    </ul>
+
+  </div>
+
+
+  <iframe class="center-pane" src="pages/autores.html">
+
+  </iframe>
+</div>
+  <script src="js/handle-page.js" type="text/javascript"></script>
+      <div class="col-lg-4">
+          <div class="panel panel-primary">
+              <div class="panel-heading">
+                  <center>MySQL</center>
+              </div>
+              <div class="panel-body">
+                <embed src="video/ldd.mp4" width="550" height="200">
+              </div>
+              <div class="panel-footer">
+                  <center>Uso LDD y LMD</center>
+              </div>
+          </div>
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+          <div class="panel panel-primary">
+              <div class="panel-heading">
+                  <center>Maps</center>
+              </div>
+              <div class="panel-body">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.921694232186!2d-77.28046578539427!3d1.2147163991140006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2ed4842df4979f%3A0x236eacf0b96f8e40!2sPlaza+de+Nari%C3%B1o!5e0!3m2!1ses!2sco!4v1540517102975" width="550" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+              <div class="panel-footer">
+                  <center>Localiazión Actual</center>
+              </div>
+          </div>
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+          <div class="panel panel-primary">
+              <div class="panel-heading">
+                  <center>Calendario</center>
+              </div>
+              <div class="panel-body">
+                  <iframe src="pages/calendario.html" width="550" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+              <div class="panel-footer">
+                  <center>Fecha Actual</center>
+              </div>
+          </div>
+      </div>
+      <!-- /.col-lg-4 -->
+      <!-- Copyright -->
+    <div class="footer">
+      <center>
+        Copyright © 2018<br>
+        <a href="https://mdbootstrap.com/bootstrap-tutorial/"> Brayan Mesias - Brayan Benavides</a>
+      </center>
+    </div>
+    <!-- Copyright -->
+</body>
+<html>
